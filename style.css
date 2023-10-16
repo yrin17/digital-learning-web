@@ -1,0 +1,274 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+::-webkit-scrollbar {
+    margin: 0;
+}
+
+
+.top {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-between;
+    background-color: darkslateblue;
+    text-decoration: none;
+}
+
+.top p a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 30%;
+    height: 40%;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkslateblue;
+    box-shadow: 10px;
+}
+
+
+.navbar {
+
+    width: 50%;
+
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+.navbar ul li {
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+
+.btn button {
+    border-radius: 12px;
+    width: 150px;
+    height: 25px;
+
+}
+
+.btn button:hover {
+    background-color: darkgoldenrod;
+    color: gold;
+}
+
+.navbar ul li a {
+    color: rgb(6, 6, 8);
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: blue;
+    background-color: rgb(49, 195, 71);
+}
+
+.item {
+    background-image: url(image/depositphotos_35269821-stock-photo-discussing-project.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    color: rgb(3, 3, 3);
+    align-items: center;
+
+
+
+}
+
+
+.navbar bten {
+    display: flex;
+
+
+}
+
+.bten button {
+    border: 2px solid black;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 13px;
+
+    background-color: dimgray;
+    z-index: -1;
+}
+
+.bten button:hover {
+
+    background-color: blueviolet;
+    color: chocolate;
+}
+
+
+.intro {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bottom1 {
+
+    width: 250px;
+    height: 50px;
+    display: flex;
+
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.services1 img {
+    width: 300px;
+    height: 250px;
+    margin-right: 40px;
+}
+
+.services2 img {
+    width: 300px;
+    height: 250px;
+    margin-right: 50px;
+}
+
+.services3 img {
+    width: 300px;
+    height: 250px;
+    margin-right: 50px;
+}
+
+.bottom2 {
+
+    margin-top: 300px;
+    width: 50%;
+    height: 50px;
+    display: flex;
+
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.services4 img {
+    width: 300px;
+    height: 250px;
+    margin-right: 40px;
+}
+
+.services5 img {
+    width: 300px;
+    height: 250px;
+    margin-right: 50px;
+}
+
+.services6 img {
+    width: 300px;
+    height: 250px;
+    margin-right: 50px;
+}
+
+p {
+    justify-content: center;
+    text-align: left;
+}
+
+
+.new {
+
+    margin-top: 300px;
+    background-color: rgb(4, 3, 3);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.logo1 {
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.logo1 img {
+
+    width: 50%;
+    height: 70%;
+
+
+}
+
+
+.footer {
+    border: 3px solid black;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 200px;
+    margin-right: 50px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(21, 230, 195);
+    color: rgb(11, 10, 9);
+
+}
+
+
+.footer p {
+    text-align: center;
+}
+
+.footer button {
+
+    border-radius: 15PX;
+    margin-top: 20px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 62, 62);
+    width: 40%;
+    height: 15%;
+
+}
+
+
+.footer button:hover {
+    background-color: darkgreen;
+    color: blueviolet;
+}
+
+.form {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+
+}
